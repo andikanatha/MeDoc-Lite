@@ -10,10 +10,13 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="328dp"
+        android:layout_marginBottom="-10dp"
         app:cardBackgroundColor="@color/primary_color"
         app:cardCornerRadius="30dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="413dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/textView2"
@@ -34,28 +37,28 @@
             android:layout_marginTop="100dp"
             android:layout_marginRight="30dp"
             android:text="Untuk lebih lanjut, silahkan masuk dengan akun
-                                anda. Jika kalian belum memiliki akun Me&Doc,
+                                anda. Jika kalian belum memiliki akun MeDoc,
                                 silahkan daftar dan membuat akun."
             android:textColor="@color/white"
             android:textSize="15dp"
             android:textStyle="normal" />
 
-<!--        <Button-->
-<!--            android:id="@+id/btnlogin"-->
-<!--            android:layout_width="149dp"-->
-<!--            android:layout_height="58dp"-->
-<!--            android:layout_margin="180dp"-->
-<!--            android:layout_marginLeft="30dp"-->
-<!--            android:layout_marginRight="20dp"-->
-<!--            android:textColor=""/>-->
+        <!--        <Button-->
+        <!--            android:id="@+id/btnlogin"-->
+        <!--            android:layout_width="149dp"-->
+        <!--            android:layout_height="58dp"-->
+        <!--            android:layout_margin="180dp"-->
+        <!--            android:layout_marginLeft="30dp"-->
+        <!--            android:layout_marginRight="20dp"-->
+        <!--            android:textColor=""/>-->
 
-<!--        <Button-->
-<!--            android:id="@+id/btnregistrasi"-->
-<!--            android:layout_width="149dp"-->
-<!--            android:layout_height="58dp"-->
-<!--            android:layout_margin="2dp"-->
-<!--            android:layout_marginLeft="30dp"-->
-<!--            android:layout_marginRight="20dp" />-->
+        <!--        <Button-->
+        <!--            android:id="@+id/btnregistrasi"-->
+        <!--            android:layout_width="149dp"-->
+        <!--            android:layout_height="58dp"-->
+        <!--            android:layout_margin="2dp"-->
+        <!--            android:layout_marginLeft="30dp"-->
+        <!--            android:layout_marginRight="20dp" />-->
 
     </androidx.cardview.widget.CardView>
 
